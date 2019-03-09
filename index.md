@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 哈哈哈^_^
 
 You can use the [editor on GitHub](https://github.com/WingingSky/bettering_is_OK_-_-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
