@@ -2,27 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>唐诗一首</title>
+    <title>读诗一首</title>
     <style type="text/css">
         body{
             background-image:url(../bao/images/gamersky_10origin_19_2015827102762F.jpg);
             background-repeat:no-repeat;
         }
-        @keyframes blink {
-            from{opacity:0}
-            to{opacity:100}
+        @keyframes line_1 {
+            0%{opacity: 0}
+            25%{opacity: 100}
+            50%{opacity: 0}
+            75%{opacity: 0}
+            100%{opacity: 0}
         }
-        h1,p{
-            animation: blink 2s infinite
+        @keyframes line_2 {
+            0%{opacity: 0}
+            25%{opacity: 0}
+            50%{opacity: 100}
+            75%{opacity: 0}
+            100%{opacity: 0}
+        }
+        @keyframes line_3 {
+            0%{opacity: 0}
+            25%{opacity: 0}
+            50%{opacity: 0}
+            75%{opacity: 100}
+            100%{opacity: 0}
+        }
+        @keyframes line_4 {
+            0%{opacity: 0}
+            25%{opacity: 0}
+            50%{opacity: 0}
+            75%{opacity: 0}
+            100%{opacity: 100}
+        }
+        #line_1 {
+            animation: line_1 40s
+        }
+        #line_2{
+            animation: line_2 40s
+        }
+        #line_3{
+            animation: line_3 40s
+        }
+        #line_4{
+            animation: line_4 40s
         }
     </style>
 </head>
 <body>
 <h1>静夜思</h1>
-<p>床前明月光，</p>
-<p>疑是地上霜。</p>
-<p>举头望明月，</p>
-<p>低头思故乡。</p>
+<p id="line_1">床前明月光，</p>
+<p id="line_2">疑是地上霜。</p>
+<p id="line_3">举头望明月，</p>
+<p id="line_4">低头思故乡。</p>
 <audio autoplay="autoplay" controls="controls" src="./musics/321.mp3"></audio>
 </body>
 </html>
