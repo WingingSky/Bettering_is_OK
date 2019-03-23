@@ -48,9 +48,19 @@
         #line_4{
             animation: line_4 40s
         }
+        function audioAutoPlay(id){
+            var audio = document.getElementById(id);
+            audio.play ();
+            document.addEventListener("WeixinJSBridgeReady",function(){
+                audio.play;
+            },false);
+            document.addEventListener("YixinJSBridgeReady",function(){
+                audio.play;
+            },false);
+        }
     </style>
 </head>
-<body>
+<body onload="audioAutoPlay("bgm");">
 <audio autoplay="autoplay" controls="controls" src="./musics/321.mp3"></audio>
 <h1>静夜思</h1>
 <p id="line_1">床前明月光，</p>
