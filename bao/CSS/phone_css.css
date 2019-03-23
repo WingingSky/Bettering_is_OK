@@ -6,7 +6,7 @@ html,body,page{
 page {
     font-size: 100px;
     position: absolute;
-    padding-left: 40%;
+    text-align: center;
     padding-top: 40%;
 }
 @keyframes c {
@@ -38,6 +38,14 @@ page {
     80%{opacity:100}
     100%{opacity:0}
 }
+@keyframes z {
+    0%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity:100}
+    100%{opacity:0}
+}
 #c{
     animation: c 10s infinite;
     background-color: lightgreen;
@@ -48,10 +56,16 @@ page {
 }
 #q{
     animation: q 10s infinite;
-    background-color: white;
+    background-image: url("../images/gamersky_10origin_19_2015827102762F.jpg");
+    background-size: 100% 100%;
 }
 #d{
     animation: d 10s infinite;
     background-color: black;
     color: white;
+}
+#z{
+    display: block;
+    font-size: 40px;
+    animation: z 10s infinite;
 }
